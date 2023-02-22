@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EBookForGood</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Upload Book</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>EBookForGood</h1>
+      <form>
+        <input type="file" name="bookFile" id="bookFile" accept=".pdf,.epub">
+        <button type="button" onclick="uploadFile()">Upload Book</button>
+      </form>
+      <div id="uploadStatus"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
